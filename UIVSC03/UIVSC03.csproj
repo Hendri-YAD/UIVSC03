@@ -45,14 +45,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusinessCase.Designer.cs">
+      <DependentUpon>BusinessCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exercise3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercise3_1.Designer.cs">
+      <DependentUpon>Exercise3_1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMDIChild1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIChild1.Designer.cs">
+      <DependentUpon>frmMDIChild1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIChild2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIChild2.Designer.cs">
+      <DependentUpon>frmMDIChild2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIChild3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIChild3.Designer.cs">
+      <DependentUpon>frmMDIChild3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIParent.Designer.cs">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolStrip.Designer.cs">
+      <DependentUpon>ToolStrip.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BusinessCase.resx">
+      <DependentUpon>BusinessCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exercise3_1.resx">
+      <DependentUpon>Exercise3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIParent.resx">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +116,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ToolStrip.resx">
+      <DependentUpon>ToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
