@@ -16,7 +16,7 @@ namespace UIVSC03
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exercise3_1());
+            Application.Run(new BusinessCaseUI3_1());
         }
     }
 }

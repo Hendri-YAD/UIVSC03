@@ -117,36 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="New.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAYAAAARIY8tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABcSURBVEhL7ZFBCgAgCMD8/6v8WWUglBgaWicHI4pyhwAR
-        20v/BwDgSvleqga8eCLhAK9yDpsSIE6RtAChRVL+QLrNWzfzYFyIUAGTCphUwKQCJq5A1G3euskXWwd8
-        aBMRt82u4AAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="Open.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAYAAAARIY8tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACeSURBVEhLzZVZDoAgDAV7dI7GzRDUmleoLJUmmkwakcy4
-        fEgxxuTJfwNEJND2FEwBTViv8flyoHu3LM3THBjBchHARby4iubIk9J1yMkbZmEpcq8XYRvBjSPqGJKv
-        t/KVORnoS3pzMnBttszJwFjygbE8BBsQ8JHDKzp1Yu6Qv36DXXL1CXbKIeAjh4CPvHAGvOSFJ2BFkyLb
-        fziSmA49m6J+sAzbAAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="Save.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAYAAAARIY8tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABhSURBVEhL7Y1RCgAhCAU9ekfzZrVLaBZCSQYRfsyH+p4D
-        iJhPwgIAcEUVpFSRgVW6p6cEEt7LwK5A64eACcEUk4BCFsbuVLDDHYJ/tuIuoO7Yl7cQtEff/LiAQl6o
-        An8wF1NR3lVY1rqaAAAAAElFTkSuQmCC
-</value>
-  </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>122, 17</value>
+    <value>152, 17</value>
   </metadata>
 </root>

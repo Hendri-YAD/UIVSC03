@@ -41,13 +41,14 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.New,
             this.Open,
             this.Save});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(334, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(445, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -57,7 +58,7 @@
             this.New.Image = ((System.Drawing.Image)(resources.GetObject("New.Image")));
             this.New.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.New.Name = "New";
-            this.New.Size = new System.Drawing.Size(23, 22);
+            this.New.Size = new System.Drawing.Size(24, 24);
             this.New.Text = "New";
             // 
             // Open
@@ -66,7 +67,7 @@
             this.Open.Image = ((System.Drawing.Image)(resources.GetObject("Open.Image")));
             this.Open.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Open.Name = "Open";
-            this.Open.Size = new System.Drawing.Size(23, 22);
+            this.Open.Size = new System.Drawing.Size(24, 24);
             this.Open.Text = "Open";
             // 
             // Save
@@ -75,16 +76,18 @@
             this.Save.Image = ((System.Drawing.Image)(resources.GetObject("Save.Image")));
             this.Save.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(23, 22);
+            this.Save.Size = new System.Drawing.Size(24, 24);
             this.Save.Text = "Save";
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 328);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 407);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(334, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(445, 24);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -92,16 +95,18 @@
             // 
             this.toolStripStatusLabel1.AutoSize = false;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(61, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(61, 19);
             this.toolStripStatusLabel1.Text = "Ready";
+            this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
             // 
             // ToolStrip
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 350);
+            this.ClientSize = new System.Drawing.Size(445, 431);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ToolStrip";
             this.Text = "ToolStrip";
             this.toolStrip1.ResumeLayout(false);
